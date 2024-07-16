@@ -26,3 +26,13 @@ output "show" {
 #### 1. Dynamic infrastructure: Your code can adapt based on real-world information.
 #### 2. Modular code: Data sources help keep your code organized and reusable.
 #### 3. Reduced errors: You rely less on hardcoded values, minimizing mistakes.
+
+### Example 2 - Fetching the arguments details from the existing ec2 instance.
+
+```sh
+data "aws_instance" "ec2-id" { }
+
+output "ec2-details" {
+  value = "${data.aws_instance.ec2-id.instance_id}-${data.aws_instance.ec2-id.instance_tags}"
+}
+```
