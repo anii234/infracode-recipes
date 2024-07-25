@@ -1,5 +1,5 @@
 ### In many of the use-cases, there are repeatable nested blocks that needs to be defined. This can lead to a long code and it can be difficult to manage in a longer time.
-In the below example 4 ingress rules are defined, they may can increase by 100's as per the projects need, which may requires more no. of nested blocks.
+In the below example, 4 ingress rules are defined, they may can increase by 100's as per the project need, which may requires more no. of nested blocks.
 
 #### Before 
 ```sh
