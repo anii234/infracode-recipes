@@ -6,7 +6,7 @@ Here's a simplified explanation:
 
 ### What is Terraform Plan-to-File?
 * **Creating a Blueprint:** When you run `terraform plan`, Terraform creates a detailed blueprint of the changes it would make to your infrastructure. 
-* **Saving the Blueprint:** The `-out-file` option lets you save this blueprint as a file (like `infra.plan`).
+* **Saving the Blueprint:** The `-out` option lets you save this blueprint as a file (like `infra.plan`).
 * **Applying the Blueprint:** Later, you can use this saved plan to make the exact same changes to another environment (like production) by running `terraform apply infra.plan`.
 
 ### Why is it Useful?
