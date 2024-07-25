@@ -35,6 +35,7 @@ resource "aws_security_group" "allow_tls" {
 ```
 
 After Dynamic block.
+
 Declared ports into the `variable.tf `
 ```sh
 variable "sg-ports" {
