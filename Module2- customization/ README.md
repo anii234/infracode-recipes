@@ -2,10 +2,10 @@
 
 | Sr No | Document Link |
 | ------ | ------ |
-
-| 1 | [DataSource][PlDb] |
-| 2 | [Debugging][PlDc] |
-| 4 | [locals][PlDa] |
+| 1 | [locals][PlDa] |
+| 2 | [DataSource][PlDb] |
+| 3 | [Debugging][PlDc] |
+| 4 | [TerraformFmt][PlDd] |
 | 5 | [DynamicBlock][PlDe] |
 | 6 | [Plan-to-file][PlDf] |
 | 7 | [manage-large-infra][PlDg] |
