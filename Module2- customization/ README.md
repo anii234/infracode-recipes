@@ -13,9 +13,9 @@
 | 9 | [taintingResource][PlDi] |
 | 10 | [terraformGraph][PlDj] |
 | 11 | [zipmapFunction][PlDk] |
-| 12 | [Meta Argument][PlDl] |
-| 13 | [Life Cycle Block Argument ][PlDm] |
-| 14 | [For Each Loop ][PlDn] |
+| 12 | [Meta Argument][P2Da] |
+| 13 | [Life Cycle Block Argument ][P2Db] |
+| 14 | [foreachLoop][P2Dc] |
 
 
 
@@ -30,6 +30,6 @@
 [PlDi]: <./taintingResource.md>
 [PlDj]: <./terraformGraph.md>
 [PlDk]: <./zipmapFunction.md>
-[P1Dl]: <./MetaArgument.md>
-[P1Dm]: <./lifecycleBlockArgu.md>
-[P1Dn]: <./foreachLoop>
+[P2Da]: <./MetaArgument.md>
+[P2Db]: <./lifecycleBlockArgu.md>
+[P2Dc]: <./foreachLoop>
