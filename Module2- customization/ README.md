@@ -32,4 +32,4 @@
 [PlDk]: <./zipmapFunction.md>
 [P2Da]: <./MetaArgument.md>
 [P2Db]: <./lifecycleBlockArgu.md>
-[P2Dc]: <./foreachLoop>
+[P2Dc]: <./foreachLoop.md>
