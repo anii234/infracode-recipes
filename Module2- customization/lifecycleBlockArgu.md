@@ -35,3 +35,13 @@ Terraform will perform the following actions:
       ~ associate_public_ip_address          = true -> (known after apply)
       ~ availability_zone                    = "us-east-1d" -> (known after apply)
 ```
+
+## Lifecycle Arguments in Terraform
+
+| Argument | Description | Usage in Production |
+|---|---|---|
+| `create_before_destroy` | Boolean indicating whether to create a replacement resource before destroying the existing one. | Useful for resources with long creation times or where downtime is critical (e.g., EC2 instances, databases). However, consider the increased cost and potential for resource conflicts. |
+| `prevent_destroy` | Boolean indicating whether to prevent the resource from being destroyed. | Used to protect critical resources from accidental deletion. Exercise caution as it can hinder infrastructure changes. |
+| `ignore_changes` | List of attribute names to ignore when planning updates. | Used to prevent Terraform from managing specific attributes that are managed externally or are prone to spurious diffs. Useful for tags, metadata, or attributes managed by other systems. |
+| `replace_triggered_by` | List of resource or attribute references. | Indicates that a resource should be replaced when a specific resource or attribute changes. Used for complex dependencies or when in-place updates are not possible. Requires careful consideration of potential impacts. |
+
