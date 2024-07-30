@@ -4,4 +4,4 @@
 | ------ | ------ |
 | 1 | [Basics Of Modules and Best Practices ][PlDa] |
 
-[PlDa]: <./BasicOfModules.md>
+[PlDa]: <./BasicsOfModules.md>
