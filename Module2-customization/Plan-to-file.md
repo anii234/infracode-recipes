@@ -1,9 +1,5 @@
 ## Understanding Terraform Plan-to-File
 
-**Your understanding is correct!**
-
-Here's a simplified explanation:
-
 ### What is Terraform Plan-to-File?
 * **Creating a Blueprint:** When you run `terraform plan`, Terraform creates a detailed blueprint of the changes it would make to your infrastructure. 
 * **Saving the Blueprint:** The `-out` option lets you save this blueprint as a file (like `infra.plan`).
