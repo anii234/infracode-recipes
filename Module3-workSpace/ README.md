@@ -6,4 +6,4 @@
 | 3 | [Custom Module ][PlDc] |
 
 [PlDa]: <./BasicsOfModules.md>
-[PlDc]: <./customModule>
+[PlDc]: <./customModule.md>
