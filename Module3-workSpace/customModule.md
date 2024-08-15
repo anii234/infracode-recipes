@@ -1,3 +1,5 @@
+Doc. https://developer.hashicorp.com/terraform/language/modules/sources
+
 **Terraform Custom Modules: Making Infrastructure Reusable**
 
 In Terraform, you have the power to create custom modules, which are reusable blocks of infrastructure code. Imagine these modules as building blocks – you define them once, and then you can incorporate them into various Terraform configurations as needed. This approach promotes code organization, reduces redundancy, and simplifies infrastructure management.
