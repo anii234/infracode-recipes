@@ -7,6 +7,7 @@
 | 3 | [Custom Module ][PlDc] |
 | 4 | [ImprovedCustomModules.md][PlDd] |
 | 5 | [Module Structure][PlDe] |
+| 6 | [workspace][PlDf] |
 
 
 [PlDa]: <./BasicsOfModules.md>
@@ -14,3 +15,4 @@
 [PlDc]: <./customModule.md>
 [PlDd]: <./ImprovedCustomModules.md>
 [PlDe]: <./Module Structure.md>
+[PlDf]: <./workspace.md>
