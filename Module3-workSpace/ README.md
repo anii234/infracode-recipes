@@ -7,6 +7,6 @@
 | 3 | [Custom Module ][PlDc] |
 
 [PlDa]: <./BasicsOfModules.md>
-[P1Db]: <./ec2-Module.md>
+[PlDb]: <./ec2-Module.md>
 [PlDc]: <./customModule.md>
 
